@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vidhu portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "hBbqFMtwUL7BV_5Vd",
+      });
+   })();
+</script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-gray-900">Vidhu Tharun K</a>
+      <nav class="flex space-x-4">
+        <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
+        <a href="#projects" class="text-gray-700 hover:text-gray-900">Projects</a>
+        <a href="#internship" class="text-gray-700 hover:text-gray-900">Internship</a>
+        <a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="bg-gray-100">
+    <div class="container mx-auto px-6 py-16 text-center">
+      <h1 class="text-4xl font-bold text-gray-900">Hello, I'm Vidhu Tharun K</h1>
+      <p class="mt-4 text-lg text-gray-700">I'm a graduate in BE Computer Science Engineering</p>
+    </div>
+  </section>
+
+  <section id="about" class="bg-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">About Me</h2>
+      <p class="mt-4 text-lg text-gray-700 text-center"> Highly motivated and results-driven professional with a passion for technology and a strong commitment to
+        excellence. Adept knowledge of programming languages like C, Python, Java ,JavaScript to create innovative
+        and user friendly applications, while continuously expanding my technical skill set.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">Projects</h2>
+      <div class="mt-8 project-grid">
+        <!-- Project 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">Petshop Management System</h3>
+          <p class="mt-4 text-gray-700">Pet Shop Management System is to provide application-based interface to a pet shop owner to manage pet shop
+            activities. It provides an option for storing and managing the basic information about pets and pet products in
+            the shop and to provide an option for storing and managing the sales details of the shop.
+          </p><p class="mt-4 text-gray-700">TechStack: Java, MySQL.</p>
+
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">Spycam Detection App</h3>
+          <p class="mt-4 text-gray-700">This application intends to aid in maintaining the safety and security of people by which spy cameras can easily
+            be detected, also the location and the perpetrator’s identity would be sent to the concerned authorities.
+            <p> TechStack: Android Studio,Java</p></p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900"> Causes And Effects Of Cancer</h3>
+          <p class="mt-4 text-gray-700">Developed a simulation to display the causes and effects of cancer using
+            OpenGL to analyze the causes of cancer and the effect it has on our
+            body.
+           <p> TechStack: OpenGL.</p></p>
+        </div>
+        <!-- Project 4 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+          <h3 class="text-xl font-bold text-gray-900">AIML Assisted Judicial Decision Support System</h3>
+          <p class="mt-4 text-gray-700">An interface developed for judges to upload case files and receive an impartial feedback based on the files.It also shows similar
+            previous cases along with their similarity score.
+            <p> TechStack: Java, HTML</p></p>
+        </div>
+        <!-- Project 5 -->
+       <div class="bg-gray-100 p-6 rounded-lg shadow-lg project-card">
+        <h3 class="text-xl font-bold text-gray-900"> Kidney Donation Management System</h3>
+        <p class="mt-4 text-gray-700">An application developed on the Evoluteiq platform to streamline the process of kidney donation.
+        <p class="mt-4 text-gray-700">  TechStack: Eiq platform</p></p>
+      </div>
+      </div>
+    </div>
+    <section id="internship" class="bg-white py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-900 text-center">Internship</h2>
+        <p class="mt-4 text-2xl font-bold">
+          Evoluteiq-Software development using the eiq platform
+        </p>
+        <ul class="mt-8 list-disc list-inside text-gray-700">
+          <li>Developed and maintained applications and projects using the eiq platform.</li>
+          <li>Participated in the entire development lifecycle, including requirement analysis, design, development, testing, and deployment.</li>
+          <li>Deployed an application for kidney donation management.</li>
+        </ul>
+        <p class="mt-4 text-center text-2xl">
+          Company Website: <a href="https://evoluteiq.com/" target="_blank" class="text-blue-500 hover:text-blue-700">evoluteiq.com</a>
+        </p>
+      </div>
+    </section>
+
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">Contact Me</h2>
+      <form id="contact-form" class="mt-8 max-w-lg mx-auto">
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your message"></textarea>
+        </div>
+        <div class="text-center">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-300 shadow py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-black mb-4">© 2024 Vidhu Tharun K. All rights reserved.</p>
+      <p class="text-black mb-4">Contact Details:</p>
+      <p class="text-black">Mobile: <a href="tel:+91 8138845745" class="text-blue-500 hover:text-blue-900">+91 8138845745</a></p>
+      <p class="text-black">Email: <a href="mailto:vidhutharun2001@gmail.com" class="text-blue-500 hover:text-blue-900">vidhutharun2001@gmail.com</a></p>
+      <p class="text-black">
+        LinkedIn: <a href="https://www.linkedin.com/in/vidhu-tharun-3ab052207/" target="_blank" class="text-blue-500 hover:text-blue-900">VidhuTharunK</a>
+      </p>
+      <p class="text-black">
+        GitHub: <a href="https://github.com/VidhuTharunK" target="_blank" class="text-blue-500 hover:text-blue-900">VidhuTharunK</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
